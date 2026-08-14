@@ -1,0 +1,15 @@
+:root{--bg:#0d1117;--card:#161b22;--text:#c9d1d9;--accent:#58a6ff;--border:#30363d;--muted:#8b949e}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+.container{max-width:1000px;margin:auto;padding:0 20px}
+.navbar{background:var(--card);border-bottom:1px solid var(--border);padding:1rem 0;position:sticky;top:0}
+.navbar.container{display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:1.6rem;font-weight:800;color:var(--accent);text-decoration:none}
+.nav-links{list-style:none;display:flex;gap:25px}
+.nav-links a{color:var(--text);text-decoration:none;font-weight:500}
+.hero{padding:100px 0;text-align:center}
+.blog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:25px;margin-top:20px}
+.card{background:var(--card);border:1px solid var(--border);padding:25px;border-radius:10px}
+.card a{color:var(--accent);text-decoration:none;font-size:1.2rem}
+.date{color:var(--muted);font-size:0.9rem}
+footer{text-align:center;padding:40px 0;margin-top:60px;border-top:1px solid var(--border);color:var(--muted)}
